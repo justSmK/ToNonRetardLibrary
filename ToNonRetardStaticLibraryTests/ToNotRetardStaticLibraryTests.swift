@@ -10,27 +10,26 @@ import XCTest
 
 final class ToNotRetardStaticLibraryTests: XCTestCase {
     
-    override func setUp() {
-        super.setUp()
+    let defaultAccuracy = 0.001
+    
+    func testLengthUsage() {
+        let result = Converter.convert(value: 1, of: Length.self, from: .mile, to: .meter)
+        let expectation = 1609.344
+    
+        XCTAssertEqual(result, expectation, accuracy: defaultAccuracy)
     }
     
-    override func tearDown() {
-        
-        super.tearDown()
+    func testMeasurementTypeLength() {
+        let lengthType = MeasurementType.length.type
+        XCTAssertNotNil(lengthType)
+        XCTAssertTrue(lengthType is Length.Type)
+        XCTAssertFalse(lengthType is Mass.Type)
     }
-
-    func testExample() throws {
-        var test = Length.convert(value: 1, from: .mile, to: .meter)
-        print(test)
-        
-        test = Length.convert(value: 2, from: .mile, to: .meter)
-        print(test)
-        
-        
-        test = Length.convert(value: 1, from: .mile, to: .banana)
-        print(test)
-        
-        test = Length.convert(value: 1, from: .mile, to: .micrometer)
-        print(test)
+    
+    func testMeasurementTypeMass() {
+        let massType = MeasurementType.mass.type
+        XCTAssertNotNil(massType)
+        XCTAssertTrue(massType is Mass.Type)
+        XCTAssertFalse(massType is Length.Type)
     }
 }

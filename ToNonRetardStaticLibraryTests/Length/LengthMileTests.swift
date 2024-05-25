@@ -1,5 +1,5 @@
 //
-//  LengthTests.swift
+//  LengthMileTests.swift
 //  ToNonRetardStaticLibraryTests
 //
 //  Created by Sergei Semko on 5/25/24.
@@ -8,7 +8,7 @@
 import XCTest
 @testable import ToNonRetardStaticLibrary
 
-final class LengthTests: XCTestCase {
+final class LengthMileTests: XCTestCase {
     
     let defaultAccuracy = 0.001
     

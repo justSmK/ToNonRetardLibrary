@@ -11,9 +11,12 @@
 		BB4EA79B2C014D1700A3E203 /* ToNotRetardStaticLibraryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4EA79A2C014D1700A3E203 /* ToNotRetardStaticLibraryTests.swift */; };
 		BB4EA79C2C014D1700A3E203 /* libToNonRetardStaticLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB4EA78A2C0149EB00A3E203 /* libToNonRetardStaticLibrary.a */; };
 		BB4EA7A32C01546A00A3E203 /* Length.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4EA7A22C01546A00A3E203 /* Length.swift */; };
-		BB4EA7A52C0154AE00A3E203 /* LengthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4EA7A42C0154AE00A3E203 /* LengthTests.swift */; };
+		BB4EA7A52C0154AE00A3E203 /* LengthMileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4EA7A42C0154AE00A3E203 /* LengthMileTests.swift */; };
 		BB4EA7A72C015C2700A3E203 /* MassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4EA7A62C015C2700A3E203 /* MassTests.swift */; };
 		BB4EA7A92C01609B00A3E203 /* Mass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4EA7A82C01609B00A3E203 /* Mass.swift */; };
+		BB810DCD2C0253730072141C /* LengthCaliberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB810DCC2C0253730072141C /* LengthCaliberTests.swift */; };
+		BB810DCF2C0256160072141C /* Convert.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB810DCE2C0256160072141C /* Convert.swift */; };
+		BB810DD22C025DCA0072141C /* Unit.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB810DD12C025DCA0072141C /* Unit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,9 +47,12 @@
 		BB4EA7982C014D1700A3E203 /* ToNonRetardStaticLibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToNonRetardStaticLibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB4EA79A2C014D1700A3E203 /* ToNotRetardStaticLibraryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToNotRetardStaticLibraryTests.swift; sourceTree = "<group>"; };
 		BB4EA7A22C01546A00A3E203 /* Length.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Length.swift; sourceTree = "<group>"; };
-		BB4EA7A42C0154AE00A3E203 /* LengthTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LengthTests.swift; sourceTree = "<group>"; };
+		BB4EA7A42C0154AE00A3E203 /* LengthMileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LengthMileTests.swift; sourceTree = "<group>"; };
 		BB4EA7A62C015C2700A3E203 /* MassTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MassTests.swift; sourceTree = "<group>"; };
 		BB4EA7A82C01609B00A3E203 /* Mass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mass.swift; sourceTree = "<group>"; };
+		BB810DCC2C0253730072141C /* LengthCaliberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LengthCaliberTests.swift; sourceTree = "<group>"; };
+		BB810DCE2C0256160072141C /* Convert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Convert.swift; sourceTree = "<group>"; };
+		BB810DD12C025DCA0072141C /* Unit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,9 +95,9 @@
 		BB4EA78C2C0149EB00A3E203 /* ToNonRetardStaticLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				BB810DD02C025DBD0072141C /* Protocols */,
+				BB810DD32C0273120072141C /* Measurements */,
 				BB4EA78D2C0149EB00A3E203 /* ToNonRetardStaticLibrary.swift */,
-				BB4EA7A22C01546A00A3E203 /* Length.swift */,
-				BB4EA7A82C01609B00A3E203 /* Mass.swift */,
 			);
 			path = ToNonRetardStaticLibrary;
 			sourceTree = "<group>";
@@ -99,11 +105,46 @@
 		BB4EA7992C014D1700A3E203 /* ToNonRetardStaticLibraryTests */ = {
 			isa = PBXGroup;
 			children = (
+				BB810DCB2C0253320072141C /* Mass */,
+				BB810DCA2C02532C0072141C /* Length */,
 				BB4EA79A2C014D1700A3E203 /* ToNotRetardStaticLibraryTests.swift */,
-				BB4EA7A42C0154AE00A3E203 /* LengthTests.swift */,
-				BB4EA7A62C015C2700A3E203 /* MassTests.swift */,
 			);
 			path = ToNonRetardStaticLibraryTests;
+			sourceTree = "<group>";
+		};
+		BB810DCA2C02532C0072141C /* Length */ = {
+			isa = PBXGroup;
+			children = (
+				BB4EA7A42C0154AE00A3E203 /* LengthMileTests.swift */,
+				BB810DCC2C0253730072141C /* LengthCaliberTests.swift */,
+			);
+			path = Length;
+			sourceTree = "<group>";
+		};
+		BB810DCB2C0253320072141C /* Mass */ = {
+			isa = PBXGroup;
+			children = (
+				BB4EA7A62C015C2700A3E203 /* MassTests.swift */,
+			);
+			path = Mass;
+			sourceTree = "<group>";
+		};
+		BB810DD02C025DBD0072141C /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				BB810DCE2C0256160072141C /* Convert.swift */,
+				BB810DD12C025DCA0072141C /* Unit.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		BB810DD32C0273120072141C /* Measurements */ = {
+			isa = PBXGroup;
+			children = (
+				BB4EA7A22C01546A00A3E203 /* Length.swift */,
+				BB4EA7A82C01609B00A3E203 /* Mass.swift */,
+			);
+			path = Measurements;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,9 +237,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB810DD22C025DCA0072141C /* Unit.swift in Sources */,
 				BB4EA78E2C0149EB00A3E203 /* ToNonRetardStaticLibrary.swift in Sources */,
 				BB4EA7A32C01546A00A3E203 /* Length.swift in Sources */,
 				BB4EA7A92C01609B00A3E203 /* Mass.swift in Sources */,
+				BB810DCF2C0256160072141C /* Convert.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,7 +250,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB4EA79B2C014D1700A3E203 /* ToNotRetardStaticLibraryTests.swift in Sources */,
-				BB4EA7A52C0154AE00A3E203 /* LengthTests.swift in Sources */,
+				BB4EA7A52C0154AE00A3E203 /* LengthMileTests.swift in Sources */,
+				BB810DCD2C0253730072141C /* LengthCaliberTests.swift in Sources */,
 				BB4EA7A72C015C2700A3E203 /* MassTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

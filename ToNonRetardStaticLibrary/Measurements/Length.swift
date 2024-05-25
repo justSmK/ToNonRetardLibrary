@@ -7,8 +7,9 @@
 
 import Foundation
 
-public enum Length {
-    public enum Retard: Double {
+public enum Length: Convertible {
+    
+    public enum Retard: Double, Unit {
         case caliber = 0.000254
         case ell = 1.143
         case em = 0.004
@@ -27,14 +28,9 @@ public enum Length {
         case point = 0.000352778
         case rod = 5.029
         case yard = 0.9144
-        
-        
-        var baseUnit: Double {
-            self.rawValue
-        }
     }
     
-    public enum NonRetard: Double {
+    public enum NonRetard: Double, Unit {
         case meter = 1
         case centimeter = 0.01
         case kilometer = 1000.0
@@ -50,14 +46,5 @@ public enum Length {
         case nanometer = 1e-9
         case mileNautical = 1852
         case picometer = 1e-12
-        
-        var baseUnit: Double {
-            self.rawValue
-        }
-    }
-    
-    public static func convert(value: Double, from unitFrom: Retard, to unitTo: NonRetard) -> Double {
-        let baseValue = value * unitFrom.baseUnit
-        return baseValue / unitTo.baseUnit
     }
 }
