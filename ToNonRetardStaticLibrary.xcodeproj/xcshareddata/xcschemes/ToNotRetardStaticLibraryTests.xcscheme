@@ -20,8 +20,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BB4EA7972C014D1700A3E203"
-               BuildableName = "ToNotRetardStaticLibraryTests.xctest"
-               BlueprintName = "ToNotRetardStaticLibraryTests"
+               BuildableName = "ToNonRetardStaticLibraryTests.xctest"
+               BlueprintName = "ToNonRetardStaticLibraryTests"
                ReferencedContainer = "container:ToNonRetardStaticLibrary.xcodeproj">
             </BuildableReference>
          </TestableReference>

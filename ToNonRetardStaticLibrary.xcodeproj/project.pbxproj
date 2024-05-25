@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BB4EA78E2C0149EB00A3E203 /* ToNotRetardStaticLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4EA78D2C0149EB00A3E203 /* ToNotRetardStaticLibrary.swift */; };
+		BB4EA78E2C0149EB00A3E203 /* ToNonRetardStaticLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4EA78D2C0149EB00A3E203 /* ToNonRetardStaticLibrary.swift */; };
 		BB4EA79B2C014D1700A3E203 /* ToNotRetardStaticLibraryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4EA79A2C014D1700A3E203 /* ToNotRetardStaticLibraryTests.swift */; };
-		BB4EA79C2C014D1700A3E203 /* libToNotRetardStaticLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB4EA78A2C0149EB00A3E203 /* libToNotRetardStaticLibrary.a */; };
+		BB4EA79C2C014D1700A3E203 /* libToNonRetardStaticLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB4EA78A2C0149EB00A3E203 /* libToNonRetardStaticLibrary.a */; };
 		BB4EA7A32C01546A00A3E203 /* Length.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4EA7A22C01546A00A3E203 /* Length.swift */; };
 		BB4EA7A52C0154AE00A3E203 /* LengthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4EA7A42C0154AE00A3E203 /* LengthTests.swift */; };
 		BB4EA7A72C015C2700A3E203 /* MassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4EA7A62C015C2700A3E203 /* MassTests.swift */; };
@@ -39,9 +39,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		BB4EA78A2C0149EB00A3E203 /* libToNotRetardStaticLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libToNotRetardStaticLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB4EA78D2C0149EB00A3E203 /* ToNotRetardStaticLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToNotRetardStaticLibrary.swift; sourceTree = "<group>"; };
-		BB4EA7982C014D1700A3E203 /* ToNotRetardStaticLibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToNotRetardStaticLibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB4EA78A2C0149EB00A3E203 /* libToNonRetardStaticLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libToNonRetardStaticLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB4EA78D2C0149EB00A3E203 /* ToNonRetardStaticLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToNonRetardStaticLibrary.swift; sourceTree = "<group>"; };
+		BB4EA7982C014D1700A3E203 /* ToNonRetardStaticLibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToNonRetardStaticLibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB4EA79A2C014D1700A3E203 /* ToNotRetardStaticLibraryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToNotRetardStaticLibraryTests.swift; sourceTree = "<group>"; };
 		BB4EA7A22C01546A00A3E203 /* Length.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Length.swift; sourceTree = "<group>"; };
 		BB4EA7A42C0154AE00A3E203 /* LengthTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LengthTests.swift; sourceTree = "<group>"; };
@@ -61,7 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB4EA79C2C014D1700A3E203 /* libToNotRetardStaticLibrary.a in Frameworks */,
+				BB4EA79C2C014D1700A3E203 /* libToNonRetardStaticLibrary.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,8 +71,8 @@
 		BB4EA7812C0149EB00A3E203 = {
 			isa = PBXGroup;
 			children = (
-				BB4EA78C2C0149EB00A3E203 /* ToNotRetardStaticLibrary */,
-				BB4EA7992C014D1700A3E203 /* ToNotRetardStaticLibraryTests */,
+				BB4EA78C2C0149EB00A3E203 /* ToNonRetardStaticLibrary */,
+				BB4EA7992C014D1700A3E203 /* ToNonRetardStaticLibraryTests */,
 				BB4EA78B2C0149EB00A3E203 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -80,38 +80,38 @@
 		BB4EA78B2C0149EB00A3E203 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BB4EA78A2C0149EB00A3E203 /* libToNotRetardStaticLibrary.a */,
-				BB4EA7982C014D1700A3E203 /* ToNotRetardStaticLibraryTests.xctest */,
+				BB4EA78A2C0149EB00A3E203 /* libToNonRetardStaticLibrary.a */,
+				BB4EA7982C014D1700A3E203 /* ToNonRetardStaticLibraryTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BB4EA78C2C0149EB00A3E203 /* ToNotRetardStaticLibrary */ = {
+		BB4EA78C2C0149EB00A3E203 /* ToNonRetardStaticLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				BB4EA78D2C0149EB00A3E203 /* ToNotRetardStaticLibrary.swift */,
+				BB4EA78D2C0149EB00A3E203 /* ToNonRetardStaticLibrary.swift */,
 				BB4EA7A22C01546A00A3E203 /* Length.swift */,
 				BB4EA7A82C01609B00A3E203 /* Mass.swift */,
 			);
-			path = ToNotRetardStaticLibrary;
+			path = ToNonRetardStaticLibrary;
 			sourceTree = "<group>";
 		};
-		BB4EA7992C014D1700A3E203 /* ToNotRetardStaticLibraryTests */ = {
+		BB4EA7992C014D1700A3E203 /* ToNonRetardStaticLibraryTests */ = {
 			isa = PBXGroup;
 			children = (
 				BB4EA79A2C014D1700A3E203 /* ToNotRetardStaticLibraryTests.swift */,
 				BB4EA7A42C0154AE00A3E203 /* LengthTests.swift */,
 				BB4EA7A62C015C2700A3E203 /* MassTests.swift */,
 			);
-			path = ToNotRetardStaticLibraryTests;
+			path = ToNonRetardStaticLibraryTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BB4EA7892C0149EB00A3E203 /* ToNotRetardStaticLibrary */ = {
+		BB4EA7892C0149EB00A3E203 /* ToNonRetardStaticLibrary */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BB4EA7912C0149EB00A3E203 /* Build configuration list for PBXNativeTarget "ToNotRetardStaticLibrary" */;
+			buildConfigurationList = BB4EA7912C0149EB00A3E203 /* Build configuration list for PBXNativeTarget "ToNonRetardStaticLibrary" */;
 			buildPhases = (
 				BB4EA7862C0149EB00A3E203 /* Sources */,
 				BB4EA7872C0149EB00A3E203 /* Frameworks */,
@@ -121,14 +121,14 @@
 			);
 			dependencies = (
 			);
-			name = ToNotRetardStaticLibrary;
+			name = ToNonRetardStaticLibrary;
 			productName = ToNotRetardStaticLibrary;
-			productReference = BB4EA78A2C0149EB00A3E203 /* libToNotRetardStaticLibrary.a */;
+			productReference = BB4EA78A2C0149EB00A3E203 /* libToNonRetardStaticLibrary.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		BB4EA7972C014D1700A3E203 /* ToNotRetardStaticLibraryTests */ = {
+		BB4EA7972C014D1700A3E203 /* ToNonRetardStaticLibraryTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BB4EA79F2C014D1700A3E203 /* Build configuration list for PBXNativeTarget "ToNotRetardStaticLibraryTests" */;
+			buildConfigurationList = BB4EA79F2C014D1700A3E203 /* Build configuration list for PBXNativeTarget "ToNonRetardStaticLibraryTests" */;
 			buildPhases = (
 				BB4EA7942C014D1700A3E203 /* Sources */,
 				BB4EA7952C014D1700A3E203 /* Frameworks */,
@@ -139,9 +139,9 @@
 			dependencies = (
 				BB4EA79E2C014D1700A3E203 /* PBXTargetDependency */,
 			);
-			name = ToNotRetardStaticLibraryTests;
+			name = ToNonRetardStaticLibraryTests;
 			productName = ToNotRetardStaticLibraryTests;
-			productReference = BB4EA7982C014D1700A3E203 /* ToNotRetardStaticLibraryTests.xctest */;
+			productReference = BB4EA7982C014D1700A3E203 /* ToNonRetardStaticLibraryTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -175,8 +175,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BB4EA7892C0149EB00A3E203 /* ToNotRetardStaticLibrary */,
-				BB4EA7972C014D1700A3E203 /* ToNotRetardStaticLibraryTests */,
+				BB4EA7892C0149EB00A3E203 /* ToNonRetardStaticLibrary */,
+				BB4EA7972C014D1700A3E203 /* ToNonRetardStaticLibraryTests */,
 			);
 		};
 /* End PBXProject section */
@@ -196,7 +196,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB4EA78E2C0149EB00A3E203 /* ToNotRetardStaticLibrary.swift in Sources */,
+				BB4EA78E2C0149EB00A3E203 /* ToNonRetardStaticLibrary.swift in Sources */,
 				BB4EA7A32C01546A00A3E203 /* Length.swift in Sources */,
 				BB4EA7A92C01609B00A3E203 /* Mass.swift in Sources */,
 			);
@@ -217,7 +217,7 @@
 /* Begin PBXTargetDependency section */
 		BB4EA79E2C014D1700A3E203 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BB4EA7892C0149EB00A3E203 /* ToNotRetardStaticLibrary */;
+			target = BB4EA7892C0149EB00A3E203 /* ToNonRetardStaticLibrary */;
 			targetProxy = BB4EA79D2C014D1700A3E203 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -414,7 +414,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BB4EA7912C0149EB00A3E203 /* Build configuration list for PBXNativeTarget "ToNotRetardStaticLibrary" */ = {
+		BB4EA7912C0149EB00A3E203 /* Build configuration list for PBXNativeTarget "ToNonRetardStaticLibrary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BB4EA7922C0149EB00A3E203 /* Debug */,
@@ -423,7 +423,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BB4EA79F2C014D1700A3E203 /* Build configuration list for PBXNativeTarget "ToNotRetardStaticLibraryTests" */ = {
+		BB4EA79F2C014D1700A3E203 /* Build configuration list for PBXNativeTarget "ToNonRetardStaticLibraryTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BB4EA7A02C014D1700A3E203 /* Debug */,

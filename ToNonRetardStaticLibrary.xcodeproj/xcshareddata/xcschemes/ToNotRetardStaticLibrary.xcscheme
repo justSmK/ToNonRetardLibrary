@@ -16,8 +16,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BB4EA7892C0149EB00A3E203"
-               BuildableName = "libToNotRetardStaticLibrary.a"
-               BlueprintName = "ToNotRetardStaticLibrary"
+               BuildableName = "libToNonRetardStaticLibrary.a"
+               BlueprintName = "ToNonRetardStaticLibrary"
                ReferencedContainer = "container:ToNonRetardStaticLibrary.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -58,8 +58,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BB4EA7892C0149EB00A3E203"
-            BuildableName = "libToNotRetardStaticLibrary.a"
-            BlueprintName = "ToNotRetardStaticLibrary"
+            BuildableName = "libToNonRetardStaticLibrary.a"
+            BlueprintName = "ToNonRetardStaticLibrary"
             ReferencedContainer = "container:ToNonRetardStaticLibrary.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

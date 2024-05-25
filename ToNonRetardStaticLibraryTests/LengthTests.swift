@@ -1,12 +1,12 @@
 //
 //  LengthTests.swift
-//  ToNotRetardStaticLibraryTests
+//  ToNonRetardStaticLibraryTests
 //
 //  Created by Sergei Semko on 5/25/24.
 //
 
 import XCTest
-@testable import ToNotRetardStaticLibrary
+@testable import ToNonRetardStaticLibrary
 
 final class LengthTests: XCTestCase {
     

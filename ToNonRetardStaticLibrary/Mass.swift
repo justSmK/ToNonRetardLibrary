@@ -1,6 +1,6 @@
 //
 //  Mass.swift
-//  ToNotRetardStaticLibrary
+//  ToNonRetardStaticLibrary
 //
 //  Created by Sergei Semko on 5/25/24.
 //
@@ -33,7 +33,7 @@ public enum Mass {
         }
     }
     
-    public enum NotRetard: Double {
+    public enum NonRetard: Double {
         case kilogram = 1.0
         case gram = 0.001
         case milligram = 1e+6
@@ -56,7 +56,7 @@ public enum Mass {
 }
 
 extension Mass: Convert {
-    public static func convert(value: Double, from unitFrom: Retard, to unitTo: NotRetard) -> Double {
+    public static func convert(value: Double, from unitFrom: Retard, to unitTo: NonRetard) -> Double {
         let baseValue = value * unitFrom.baseUnit
         return baseValue / unitTo.baseUnit
     }
