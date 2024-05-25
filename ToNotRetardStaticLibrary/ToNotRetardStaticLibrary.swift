@@ -8,3 +8,12 @@
 class ToNotRetardStaticLibrary {
 
 }
+
+
+public class LengthConverter {
+    
+    public init() {}
+    
+}
+
+
